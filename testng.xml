@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/david/IdeaProjects/MAVENTestNG_projects/src/test/java/First.java">
+    <classes>
+        <class name = "SignIn">
+            <methods>
+                <include name = "setup"> </include>
+                <include name = "clickOnSignInButton"> </include>
+                <include name = "emailFieldChars"> </include>
+                <include name = "giveBlankEmail"> </include>
+                <include name = "enterIncorrectEmail"> </include>
+                <include name = "enterCorrectEmail"> </include>
+                <include name = "passwordFieldChars"> </include>
+                <include name = "enterBlankPassword"> </include>
+                <include name = "enterInvalidPassword"> </include>
+                <include name = "enterValidPassword"> </include>
+            </methods>
+        </class>
+        <class name = "HomePage">
+            <methods>
+                <include name = "verifyScrollThroughVideos"> </include>
+                <include name = "verifyTrending"> </include>
+                <include name = "verifyAccountChannelInfo"> </include>
+                <include name = "verifyHistory"> </include>
+                <include name = "verifySubscriptions"> </include>
+                <include name = "verifyBellIcon"> </include>
+                <include name = "verifyWatchLater"> </include>
+                <include name = "verifyYourVideos"> </include>
+                <include name = "verifyLikedVideos"> </include>
+            </methods>
+        </class>
+        <class name = "Search">
+            <methods>
+                <include name = "searchBoxChars"></include>
+                <include name = "clearSearch"></include>
+                <include name = "performSearch"></include>
+                <include name = "filtersButton"></include>
+                <include name = "typeFilter"></include>
+                <include name = "durationFilter"></include>
+                <include name = "uploadDateFilter"></include>
+                <include name = "sortByFilter"></include>
+                <include name = "featuresFilter"></include>
+                <include name = "searchClickVideo"></include>
+            </methods>
+        </class>
+        <class name = "Video">
+            <methods>
+                <include name = "playAndPause"> </include>
+                <include name = "muteAndUnmute"> </include>
+                <include name = "fullScreen"> </include>
+                <include name = "theaterMode"> </include>
+                <include name = "playbackSpeed"> </include>
+                <include name = "like"> </include>
+                <include name = "dislike"> </include>
+                <include name = "subscribeFromVideo"> </include>
+                <include name = "saveVideoToPlaylist"> </include>
+                <include name = "autoplay"> </include>
+                <include name = "viewDescription"> </include>
+            </methods>
+        </class>
+        <class name = "Comments">
+            <methods>
+                <include name = "likeComment"> </include>
+                <include name = "dislikeComment"> </include>
+                <include name = "testCommentEdit"> </include>
+                <include name = "testReplyBox"> </include>
+                <include name = "testReplyBoxEmoji"> </include>
+                <include name = "testReplySend"> </include>
+                <include name = "testReplyDelete"> </include>
+                <include name = "testCommentBox"> </include>
+                <include name = "testCommentBoxEmoji"> </include>
+                <include name = "testCommentSend"> </include>
+                <include name = "testCommentDelete"> </include>
+                <include name = "sortComments"> </include>
+            </methods>
+        </class>
+        <class name = "Shorts">
+            <methods>
+                <include name = "verifyShortAppears"> </include>
+                <include name = "pauseandResumeShort"> </include>
+                <include name = "muteandUmuteShort"> </include>
+                <include name = "likeAndUnlikeShort"> </include>
+                <include name = "dislikeAndUndislikeShort"> </include>
+                <include name = "scrollThroughShorts"> </include>
+                <include name = "testCaptions"> </include>
+                <include name = "testDescription"> </include>
+            </methods>
+        </class>
+        <class name = "Channel">
+            <methods>
+                <include name = "subscribeFromChannel"> </include>
+                <include name = "checkAboutPage"> </include>
+                <include name = "checkVideoPage"> </include>
+                <include name = "popularFilter"> </include>
+                <include name = "oldestFilter"> </include>
+                <include name = "checkLivePage"> </include>
+                <include name = "checkPlaylistsPage"> </include>
+                <include name = "checkCommunityPage"> </include>
+                <include name = "checkCommunityPost"> </include>
+                <include name = "searchChannelPage"> </include>
+            </methods>
+        </class>
+        <class name = "Playlists">
+            <methods>
+                <include name = "createNewPlayList"> </include>
+                <include name = "addVideosToPlayList"> </include>
+                <include name = "viewPlayList"> </include>
+                <include name = "modifyPlayListTitle"> </include>
+                <include name = "sortByMostPopular"> </include>
+                <include name = "sortByPublishedNewest"> </include>
+                <include name = "removeVideoFromPlayList"> </include>
+                <include name = "playPlaylist"> </include>
+                <include name = "loopPlayList"> </include>
+                <include name = "shufflePlayList"> </include>
+                <include name = "removePlayList"> </include>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
