@@ -48,7 +48,6 @@
                 <include name = "muteAndUnmute"> </include>
                 <include name = "fullScreen"> </include>
                 <include name = "theaterMode"> </include>
-                <include name = "playbackSpeed"> </include>
                 <include name = "like"> </include>
                 <include name = "dislike"> </include>
                 <include name = "subscribeFromVideo"> </include>
