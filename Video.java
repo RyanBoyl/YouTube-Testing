@@ -121,15 +121,15 @@ public class Video extends SignIn
         Thread.sleep(2000);
     }
 
-    /* Verify that autoplay can be turned on and off */
+    /* Verify that autoplay can be turned off and on */
     @Test(priority = 10)
     void autoplay() throws InterruptedException
     {   
-        // turning autplay on
+        // turning autplay off
         driver.findElement(By.cssSelector("#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-right-controls > button:nth-child(2) > div > div")).click();
         Thread.sleep(2000);
         
-        // turning autoplay off
+        // turning autoplay on
         driver.findElement(By.cssSelector("#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-right-controls > button:nth-child(2) > div > div")).click();
         Thread.sleep(2000);
     }
